@@ -17,18 +17,18 @@ n = rand() - RAND_MAX / 2;
 int n;
 char last[] = "Last digit of";
 
-printf("%s %d is %d", last, n, n);
-if (n > 5)
+printf("%s %d is %d", last, n, n % 10);
+if (n % 10 > 5)
 {
-printf("and greater than 5\n");
+printf("greater than 5\n");
 }
-else if (n < 6)
+else if (n % 10 == 0)
 {
-printf("and is less than 6 and not 0\n");
+printf("0\n");
 }
 else
 {
-printf("and is 0");
+printf("less than 6 and not 0\n");
 }
 return (0);
 
