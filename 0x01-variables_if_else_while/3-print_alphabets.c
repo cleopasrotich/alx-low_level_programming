@@ -20,6 +20,6 @@ for (z = 'A'; z <= 'Z'; z++)
 {
 putchar(z);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
