@@ -27,7 +27,7 @@ printf("0\n");
 }
 else
 {
-printf("less than 6 and not 0");
+printf("less than 6 and not 0\n");
 }
 return (0);
 
