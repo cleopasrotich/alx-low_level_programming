@@ -18,11 +18,11 @@ int n;
 char last[] = "Last digit of";
 
 printf("%s %d is %d", last, n, n);
-if (last, n > 5)
+if (n > 5)
 {
 printf("and greater than 5\n");
 }
-else if (last, n < 6)
+else if (n < 6)
 {
 printf("and is less than 6 and not 0\n");
 }
