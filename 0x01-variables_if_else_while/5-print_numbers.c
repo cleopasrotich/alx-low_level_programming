@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - Printing numbers
- *
- * Return: 0 on success
- */
+* main - Printing numbers 
+*
+* Return: 0 on success
+*/
 
 int main(void)
 {
