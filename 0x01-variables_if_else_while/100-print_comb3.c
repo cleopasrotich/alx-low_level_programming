@@ -9,26 +9,28 @@
 
 int main(void)
 {
-int first, sec;
+int i = 0;
+int c;
+int f;
 
-for (first = 0; first < 9; first++)
+while (i <= 99)
 {
-for (sec = first + 1; sec < 10; sec++)
-{
-putchar((first % 10) + 0);
-putchar((sec % 10) + 0);
+c = (i / 10 + '0');
+f = (i % 10 + '0');
 
-if (first == 8 && sec == 9)
+if (c < f)
 {
-continue;
+putchar(c);
+putchar(f);
+
+if (i != 89)
+{
 putchar(',');
 putchar(' ');
 }
-
 }
-
+i++;
 }
-
 putchar('\n');
 return (0);
 }
