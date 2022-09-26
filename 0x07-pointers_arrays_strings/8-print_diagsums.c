@@ -5,8 +5,7 @@
  * print_diagsums - prints the sums of 2 diagonols of a square matrix
  * @a: pointer to start of matrix
  * @size: width of matrix column
- * 
- * return: void
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
@@ -23,6 +22,6 @@ for (j = 0; j < size; j++)
 p = (j * size) + (size - 1 - j);
 r += *(a + p);
 }
-printf ("%i, %i\n", l, r);
+printf("%i, %i\n", l, r);
 
 }
